@@ -1,0 +1,28 @@
+import {Level} from '../level/level';
+import {TrainingRunStateEnum} from '../enums/training-run-state.enum';
+import {Trainee} from './trainee';
+
+/**
+ * Class representing training run
+ */
+export class TrainingRun {
+
+  id: number;
+  sandboxInstanceId: number;
+  trainingInstanceId: number;
+  trainingDefinitionId: number;
+  player: Trainee;
+  startTime: Date;
+  endTime: Date;
+  currentLevel: Level | number;
+  eventLogReference: string;
+  state: TrainingRunStateEnum;
+
+  isRunning(): boolean {
+    return this.state === TrainingRunStateEnum.RUNNING;
+  }
+
+  hasPlayer(): boolean {
+    return this.player !== undefined && this.player !== null;
+  }
+}
