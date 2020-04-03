@@ -1,6 +1,6 @@
 import {Level} from '../level/level';
 import {TrainingRunStateEnum} from '../enums/training-run-state.enum';
-import {Trainee} from './trainee';
+import {Trainee} from '../user-ref/trainee';
 
 /**
  * Class representing training run
