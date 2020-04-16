@@ -1,4 +1,4 @@
-import {Question} from './question';
+import { Question } from './question';
 
 /**
  * One of the question types used in questionnaires. Has an ordered list of rows and columns and matching correct answers.
@@ -10,19 +10,18 @@ import {Question} from './question';
  *
  */
 export class ExtendedMatchingItems extends Question {
-
   rows: string[];
   cols: string[];
 
-  correctAnswers: {
-    x: number,
-    y: number
-  }[];
+  correctAnswers: Array<{
+    x: number;
+    y: number;
+  }>;
 
-  usersAnswers: {
-    x: number,
-    y: number
-  }[];
+  usersAnswers: Array<{
+    x: number;
+    y: number;
+  }>;
 
   constructor(title: string) {
     super(title);

@@ -9,7 +9,6 @@ export class Hint {
   valid: boolean;
   penalty = 0;
 
-
   constructor() {
     this.valid = true;
   }

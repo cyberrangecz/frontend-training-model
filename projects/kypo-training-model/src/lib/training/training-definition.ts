@@ -1,12 +1,11 @@
-import {TrainingDefinitionStateEnum} from '../enums/training-definition-state.enum';
-import {Level} from '../level/level';
-import {formatDate} from '@angular/common';
+import { formatDate } from '@angular/common';
+import { TrainingDefinitionStateEnum } from '../enums/training-definition-state.enum';
+import { Level } from '../level/level';
 
 /**
  * Class representing training definition in a system.
  */
 export class TrainingDefinition {
-
   get lastEditTime(): Date {
     return this._lastEditTime;
   }
