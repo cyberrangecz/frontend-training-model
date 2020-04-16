@@ -1,12 +1,11 @@
-import {Level} from '../level/level';
-import {TrainingRunStateEnum} from '../enums/training-run-state.enum';
-import {Trainee} from '../user-ref/trainee';
+import { TrainingRunStateEnum } from '../enums/training-run-state.enum';
+import { Level } from '../level/level';
+import { Trainee } from '../user-ref/trainee';
 
 /**
  * Class representing training run
  */
 export class TrainingRun {
-
   id: number;
   sandboxInstanceId: number;
   trainingInstanceId: number;

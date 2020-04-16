@@ -1,11 +1,10 @@
-import {Level} from './level';
-import {Hint} from './hint';
+import { Hint } from './hint';
+import { Level } from './level';
 
 /**
  * Class representing level in a training of type Game
  */
 export class GameLevel extends Level {
-
   flag: string;
   hints: Hint[];
   content: string;

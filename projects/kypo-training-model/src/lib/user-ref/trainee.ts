@@ -1,4 +1,4 @@
-import {TrainingUser} from './training-user';
+import { TrainingUser } from './training-user';
 
-export interface Trainee extends TrainingUser {
-}
+// tslint:disable-next-line:no-empty-interface
+export interface Trainee extends TrainingUser {}

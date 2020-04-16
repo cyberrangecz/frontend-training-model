@@ -1,4 +1,4 @@
-import {Level} from '../level/level';
+import { Level } from '../level/level';
 
 /**
  * Class containing info about accessed training run

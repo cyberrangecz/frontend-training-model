@@ -1,10 +1,9 @@
-import {Question} from './question';
+import { Question } from './question';
 
 /**
  * One of types of questions. Has question and answer
  */
 export class FreeFormQuestion extends Question {
-
   correctAnswers: string[];
   usersAnswer: string;
 

@@ -1,10 +1,9 @@
 /**
  * Class representing training instance of a definition.
  */
-import {TrainingDefinition} from './training-definition';
+import { TrainingDefinition } from './training-definition';
 
 export class TrainingInstance {
-
   id: number;
   poolId: number;
   trainingDefinition: TrainingDefinition;
@@ -13,8 +12,7 @@ export class TrainingInstance {
   title: string;
   accessToken: string;
 
-  constructor() {
-  }
+  constructor() {}
 
   /**
    * True if current time is greater than start time of the training instance, false otherwise
