@@ -13,15 +13,15 @@ export class ExtendedMatchingItems extends Question {
   rows: string[];
   cols: string[];
 
-  correctAnswers: Array<{
+  correctAnswers: {
     x: number;
     y: number;
-  }>;
+  }[];
 
-  usersAnswers: Array<{
+  usersAnswers: {
     x: number;
     y: number;
-  }>;
+  }[];
 
   constructor(title: string) {
     super(title);
