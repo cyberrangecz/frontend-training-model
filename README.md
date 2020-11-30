@@ -4,9 +4,9 @@ This library contains frontend model of [KYPO Training service](https://gitlab.i
 
 ## Prerequisites
 To use the library you need to have installed:
-* NPM with private [KYPO Nexus repository](https://projects.ics.muni.cz/projects/kbase/knowledgebase/articles/153)
+* NPM with access to [KYPO registry](https://projects.ics.muni.cz/projects/kbase/knowledgebase/articles/153)
 
 ## Usage
 To use the model in your project follow these steps:
-1. Run `npm install kypo-training-model`
-2. Import classes like usual, for example `import { TrainingDefinition } from 'kypo-training-model`
+1. Run `npm install @kypo/training-model`
+2. Import classes like usual, for example `import { TrainingDefinition } from '@kypo/training-model`
