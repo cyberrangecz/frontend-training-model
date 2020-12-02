@@ -35,7 +35,7 @@ export class TrainingDefinition {
     this.levels = [];
   }
 
-  toString() {
+  toString(): number {
     return this.id;
   }
 }
