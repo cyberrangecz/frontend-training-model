@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "kypo-training-model": {
@@ -30,18 +30,16 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/kypo-training-model/tsconfig.lib.json",
-              "projects/kypo-training-model/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "projects/kypo-training-model/**/*.ts",
+              "projects/kypo-training-model/**/*.component.html"
             ]
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "kypo-training-model"
 }
