@@ -8,5 +8,5 @@ To use the library you need to have installed:
 
 ## Usage
 To use the model in your project follow these steps:
-1. Run `npm install @kypo/training-model`
-2. Import classes like usual, for example `import { TrainingDefinition } from '@kypo/training-model`
+1. Run `npm install @muni-kypo-crp/training-model`
+2. Import classes like usual, for example `import { TrainingDefinition } from '@muni-kypo-crp/training-model`
