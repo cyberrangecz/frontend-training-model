@@ -1,6 +1,7 @@
 import { formatDate } from '@angular/common';
 import { TrainingDefinitionStateEnum } from '../enums/training-definition-state.enum';
 import { Level } from '../level/level';
+import { Phase } from '../phase/phase';
 
 /**
  * Class representing training definition in a system.
@@ -23,7 +24,7 @@ export class TrainingDefinition {
   prerequisites: string[];
   outcomes: string[];
   state: TrainingDefinitionStateEnum;
-  levels: Level[];
+  levels: Level[] | Phase[];
 
   lastEditTimeFormatted: string;
   private _lastEditTime: Date;

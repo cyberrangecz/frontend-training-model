@@ -8,6 +8,10 @@ export * from './lib/enums/assessment-type.enum';
 export * from './lib/enums/trainee-access-training-run-actions.enum';
 export * from './lib/enums/training-definition-state.enum';
 export * from './lib/enums/training-run-state.enum';
+export * from './lib/enums/abstract-phase-type.enum';
+export * from './lib/enums/question-type.enum';
+export * from './lib/enums/questionnaire-type.enum';
+export * from './lib/enums/training-run-type-enum';
 
 // MAIN
 export * from './lib/training/access-training-run-info';
@@ -25,15 +29,26 @@ export * from './lib/level/game-level';
 export * from './lib/level/hint';
 export * from './lib/level/info-level';
 
-// QUESTION
+// PHASE
+export * from './lib/phase/phase';
+export * from './lib/phase/info-phase/info-phase';
+export * from './lib/phase/questionnaire-phase/adaptive-question';
+export * from './lib/phase/questionnaire-phase/choice';
+export * from './lib/phase/questionnaire-phase/phase-relation';
+export * from './lib/phase/questionnaire-phase/questionnaire-phase';
+export * from './lib/phase/training-phase/decision-matrix-row';
+export * from './lib/phase/training-phase/task';
+export * from './lib/phase/training-phase/training-phase';
+export * from './lib/phase/questionnaire-phase/question-answer';
+export * from './lib/phase/training-phase/answer-check';
 
+// QUESTION
 export * from './lib/questions/extended-matching-items';
 export * from './lib/questions/free-form-question';
 export * from './lib/questions/multiple-choice-question';
 export * from './lib/questions/question';
 
 // USERS
-
 export * from './lib/user-ref/training-user';
 export * from './lib/user-ref/trainee';
 export * from './lib/user-ref/organizer';
