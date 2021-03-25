@@ -2,6 +2,7 @@
  * Class representing row of accessed training run table
  */
 import { TraineeAccessTrainingRunActionEnum } from '../enums/trainee-access-training-run-actions.enum';
+import { TrainingRunTypeEnum } from '../enums/training-run-type-enum';
 
 export class AccessedTrainingRun {
   totalLevels: number;
@@ -13,4 +14,5 @@ export class AccessedTrainingRun {
   trainingInstanceFormattedDuration: string;
   trainingInstanceStartTime: Date;
   trainingInstanceEndTime: Date;
+  type: TrainingRunTypeEnum;
 }

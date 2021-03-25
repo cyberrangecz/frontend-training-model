@@ -1,4 +1,5 @@
 import { Level } from '../level/level';
+import { Phase } from '../phase/phase';
 
 /**
  * Class containing info about accessed training run
@@ -6,8 +7,8 @@ import { Level } from '../level/level';
 export class AccessTrainingRunInfo {
   trainingRunId: number;
   sandboxInstanceId: number;
-  currentLevel: Level;
-  levels: Level[];
+  currentLevel: Level | Phase;
+  levels: Level[] | Phase[];
   isStepperDisplayed: boolean;
   startTime: Date;
 }
