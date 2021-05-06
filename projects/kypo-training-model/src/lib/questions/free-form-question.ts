@@ -1,14 +1,16 @@
 import { Question } from './question';
+import { QuestionChoice } from './question-choice';
 
 /**
  * One of types of questions. Has question and answer
  */
 export class FreeFormQuestion extends Question {
-  correctAnswers: string[];
-  usersAnswer: string;
+  choices: QuestionChoice[];
+  userAnswers: string[];
 
   constructor(title: string) {
     super(title);
-    this.correctAnswers = [];
+    this.choices = [];
+    this.userAnswers = [];
   }
 }
