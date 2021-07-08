@@ -6,6 +6,7 @@ import { Level } from './level';
  */
 export class GameLevel extends Level {
   flag: string;
+  flagIdentifier: string;
   hints: Hint[];
   content: string;
   solution: string;
