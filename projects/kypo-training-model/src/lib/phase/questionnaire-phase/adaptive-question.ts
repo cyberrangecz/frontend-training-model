@@ -5,6 +5,11 @@ export class AdaptiveQuestion {
   id: number;
   order: number;
   text: string;
+  valid: boolean;
   questionType: QuestionTypeEnum;
   choices: Choice[];
+
+  constructor() {
+    this.valid = true;
+  }
 }

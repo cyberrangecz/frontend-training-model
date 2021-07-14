@@ -1,1 +1,2 @@
+12.0.3 Addition of valid attribute to AdaptiveQuestion
 12.0.2 Update gitlab CI
