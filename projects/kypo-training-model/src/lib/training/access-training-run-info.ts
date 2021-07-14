@@ -12,5 +12,4 @@ export class AccessTrainingRunInfo {
   isStepperDisplayed: boolean;
   isPreview: boolean;
   startTime: Date;
-  isPreview: boolean;
 }
