@@ -11,4 +11,5 @@ export class AccessTrainingRunInfo {
   levels: Level[] | Phase[];
   isStepperDisplayed: boolean;
   startTime: Date;
+  isPreview: boolean;
 }
