@@ -10,5 +10,6 @@ export class AccessTrainingRunInfo {
   currentLevel: Level | Phase;
   levels: Level[] | Phase[];
   isStepperDisplayed: boolean;
+  isPreview: boolean;
   startTime: Date;
 }
