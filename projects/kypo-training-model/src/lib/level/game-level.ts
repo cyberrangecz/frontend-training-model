@@ -5,11 +5,11 @@ import { Level } from './level';
  * Class representing level in a training of type Game
  */
 export class GameLevel extends Level {
-  flag: string;
+  answer: string;
   hints: Hint[];
   content: string;
   solution: string;
-  incorrectFlagLimit = 5;
+  incorrectAnswerLimit = 5;
   solutionPenalized = true;
 
   constructor() {

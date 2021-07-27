@@ -2,7 +2,7 @@
  * Class representing a answer check in task
  */
 
-export class AnswerCheck {
+export class PhaseAnswerCheck {
   isCorrect: boolean;
   remainingAttempts: number;
   solution: string;
