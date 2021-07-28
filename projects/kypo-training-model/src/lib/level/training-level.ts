@@ -2,9 +2,9 @@ import { Hint } from './hint';
 import { Level } from './level';
 
 /**
- * Class representing level in a training of type Game
+ * Class representing level in a training of type Training
  */
-export class GameLevel extends Level {
+export class TrainingLevel extends Level {
   answer: string;
   hints: Hint[];
   content: string;
