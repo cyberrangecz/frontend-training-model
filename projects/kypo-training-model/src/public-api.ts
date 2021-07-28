@@ -25,7 +25,7 @@ export * from './lib/training/training-run';
 export * from './lib/level/assessment-level';
 export * from './lib/level/level-answer-check';
 export * from './lib/level/level';
-export * from './lib/level/game-level';
+export * from './lib/level/training-level';
 export * from './lib/level/hint';
 export * from './lib/level/info-level';
 

@@ -1,5 +1,5 @@
 /**
- * Class representing a answer check in game level
+ * Class representing a answer check in training level
  */
 
 export class LevelAnswerCheck {
