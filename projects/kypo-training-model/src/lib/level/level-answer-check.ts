@@ -1,8 +1,8 @@
 /**
- * Class representing a flag check in game level
+ * Class representing a answer check in training level
  */
 
-export class FlagCheck {
+export class LevelAnswerCheck {
   isCorrect: boolean;
   remainingAttempts: number;
   solution: string;

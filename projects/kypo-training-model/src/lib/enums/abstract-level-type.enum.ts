@@ -1,5 +1,5 @@
 export enum AbstractLevelTypeEnum {
-  Game = 'game',
+  Training = 'training',
   Assessment = 'assessment',
   Info = 'info',
 }

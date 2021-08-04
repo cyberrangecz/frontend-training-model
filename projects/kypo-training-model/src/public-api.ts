@@ -23,9 +23,9 @@ export * from './lib/training/training-run';
 
 // LEVEL
 export * from './lib/level/assessment-level';
-export * from './lib/level/flag-check';
+export * from './lib/level/level-answer-check';
 export * from './lib/level/level';
-export * from './lib/level/game-level';
+export * from './lib/level/training-level';
 export * from './lib/level/hint';
 export * from './lib/level/info-level';
 
@@ -40,7 +40,7 @@ export * from './lib/phase/training-phase/decision-matrix-row';
 export * from './lib/phase/training-phase/task';
 export * from './lib/phase/training-phase/training-phase';
 export * from './lib/phase/questionnaire-phase/question-answer';
-export * from './lib/phase/training-phase/answer-check';
+export * from './lib/phase/training-phase/phase-answer-check';
 
 // QUESTION
 export * from './lib/questions/extended-matching-items';

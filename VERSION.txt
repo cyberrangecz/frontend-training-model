@@ -1,1 +1,3 @@
+12.0.4 Renaming game level to training level, renaming flag to answer,
+12.0.3 Addition of valid attribute to AdaptiveQuestion class
 12.0.2 Update gitlab CI
