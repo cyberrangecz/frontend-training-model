@@ -25,6 +25,7 @@ export class TrainingDefinition {
   outcomes: string[];
   state: TrainingDefinitionStateEnum;
   levels: Level[] | Phase[];
+  variantSandboxes: boolean;
 
   lastEditTimeFormatted: string;
   private _lastEditTime: Date;

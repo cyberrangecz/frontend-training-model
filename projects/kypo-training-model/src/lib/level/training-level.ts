@@ -6,6 +6,7 @@ import { Level } from './level';
  */
 export class TrainingLevel extends Level {
   answer: string;
+  answerVariableName: string;
   hints: Hint[];
   content: string;
   solution: string;
