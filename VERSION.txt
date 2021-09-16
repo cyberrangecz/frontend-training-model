@@ -1,3 +1,4 @@
+12.0.6 Add edit by attribute for TD.
 12.0.5 Addition of the attributes for APG.
 12.0.4 Renaming game level to training level, renaming flag to answer,
 12.0.3 Addition of valid attribute to AdaptiveQuestion class
