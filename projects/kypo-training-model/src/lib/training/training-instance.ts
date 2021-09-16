@@ -11,6 +11,7 @@ export class TrainingInstance {
   endTime: Date;
   title: string;
   accessToken: string;
+  lastEditBy: string;
 
   /**
    * True if current time is greater than start time of the training instance, false otherwise
