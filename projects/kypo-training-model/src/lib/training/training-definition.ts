@@ -26,6 +26,7 @@ export class TrainingDefinition {
   state: TrainingDefinitionStateEnum;
   levels: Level[] | Phase[];
   variantSandboxes: boolean;
+  defaultContent: boolean;
   lastEditBy: string;
 
   lastEditTimeFormatted: string;
@@ -36,6 +37,7 @@ export class TrainingDefinition {
     this.outcomes = [];
     this.prerequisites = [];
     this.levels = [];
+    this.defaultContent = false;
   }
 
   toString(): number {
