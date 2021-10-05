@@ -12,6 +12,7 @@ export class TrainingLevel extends Level {
   solution: string;
   incorrectAnswerLimit = 5;
   solutionPenalized = true;
+  variantAnswers: boolean;
 
   constructor() {
     super();
