@@ -28,6 +28,7 @@ export * from './lib/level/level';
 export * from './lib/level/training-level';
 export * from './lib/level/hint';
 export * from './lib/level/info-level';
+export * from './lib/level/reference-solution';
 
 // PHASE
 export * from './lib/phase/phase';
