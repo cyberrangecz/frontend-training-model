@@ -25,7 +25,6 @@ export class TrainingDefinition {
   outcomes: string[];
   state: TrainingDefinitionStateEnum;
   levels: Level[] | Phase[];
-  variantSandboxes: boolean;
   defaultContent: boolean;
   lastEditBy: string;
 

@@ -1,7 +1,7 @@
 /**
  * Class representing reference solution of training level
  */
-export class ReferenceSolution {
+export class ReferenceSolutionNode {
   stateName: string;
   prereqState: string[];
   cmdType: string;

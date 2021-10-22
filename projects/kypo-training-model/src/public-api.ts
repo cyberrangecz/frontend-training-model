@@ -20,6 +20,7 @@ export * from './lib/training/training-definition-info';
 export * from './lib/training/training-definition';
 export * from './lib/training/training-instance';
 export * from './lib/training/training-run';
+export * from './lib/training/training-run-info';
 
 // LEVEL
 export * from './lib/level/assessment-level';
@@ -28,7 +29,7 @@ export * from './lib/level/level';
 export * from './lib/level/training-level';
 export * from './lib/level/hint';
 export * from './lib/level/info-level';
-export * from './lib/level/reference-solution';
+export * from './lib/level/reference-solution-node';
 
 // PHASE
 export * from './lib/phase/phase';
