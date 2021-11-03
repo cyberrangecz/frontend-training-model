@@ -2,10 +2,10 @@
  * Class representing reference solution of training level
  */
 export class ReferenceSolutionNode {
-  stateName: string;
-  prereqState: string[];
-  cmdType: string;
+  state_name: string;
+  prereq_state: string[];
+  cmd_type: string;
   cmd: string;
-  cmdRegex: string;
+  cmd_regex: string;
   optional: boolean;
 }
