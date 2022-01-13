@@ -7,7 +7,7 @@ export class AdaptiveQuestion {
   text: string;
   valid: boolean;
   questionType: QuestionTypeEnum;
-  hasRelation: boolean;
+  relations: number;
   choices: Choice[];
 
   constructor() {
