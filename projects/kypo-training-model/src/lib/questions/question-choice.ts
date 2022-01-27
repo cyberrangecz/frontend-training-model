@@ -1,5 +1,3 @@
-import { Question } from './question';
-
 /**
  * One of types of questions in questionnaire. Traditional multiple-choice
  */
