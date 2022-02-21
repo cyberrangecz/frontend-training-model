@@ -12,6 +12,8 @@ export class TrainingInstance {
   title: string;
   accessToken: string;
   lastEditBy: string;
+  localEnvironment: boolean;
+  sandboxDefinitionId: number;
 
   /**
    * True if current time is greater than start time of the training instance, false otherwise

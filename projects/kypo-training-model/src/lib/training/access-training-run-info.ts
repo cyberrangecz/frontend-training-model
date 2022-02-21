@@ -6,10 +6,12 @@ import { Phase } from '../phase/phase';
  */
 export class AccessTrainingRunInfo {
   trainingRunId: number;
-  sandboxInstanceId: number;
+  sandboxInstanceId?: number;
+  sandboxDefinitionId?: number;
   currentLevel: Level | Phase;
   levels: Level[] | Phase[];
   isStepperDisplayed: boolean;
   isPreview: boolean;
   startTime: Date;
+  localEnvironment: boolean;
 }

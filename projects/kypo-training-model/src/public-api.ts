@@ -23,6 +23,7 @@ export * from './lib/training/training-run';
 export * from './lib/training/training-run-info';
 
 // LEVEL
+export * from './lib/level/access-level';
 export * from './lib/level/assessment-level';
 export * from './lib/level/level-answer-check';
 export * from './lib/level/level';
@@ -34,6 +35,7 @@ export * from './lib/level/reference-solution-node';
 // PHASE
 export * from './lib/phase/phase';
 export * from './lib/phase/info-phase/info-phase';
+export * from './lib/phase/access-phase/access-phase';
 export * from './lib/phase/questionnaire-phase/adaptive-question';
 export * from './lib/phase/questionnaire-phase/choice';
 export * from './lib/phase/questionnaire-phase/phase-relation';

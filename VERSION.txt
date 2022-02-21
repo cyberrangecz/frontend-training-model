@@ -1,3 +1,4 @@
+13.0.1 Added models for access level and phase. Attribute localEnvironment added to TI and Accessed TR. SD id added to TI model.
 13.0.0 Update to Angular 13, CI/CD optimization, hasRelation changes to counter of relations.
 12.1.0 Added reference solution to training definition. Attribute hasRelation for adaptive questions added.
 12.0.8 Added variant answers to training level. Created Training Run Info class.
