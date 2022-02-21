@@ -15,4 +15,6 @@ export class AccessedTrainingRun {
   trainingInstanceStartTime: Date;
   trainingInstanceEndTime: Date;
   type: TrainingRunTypeEnum;
+  localEnvironment: boolean;
+  sandboxDefinitionId: number;
 }
