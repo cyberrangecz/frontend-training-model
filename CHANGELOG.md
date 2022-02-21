@@ -1,3 +1,7 @@
+### 13.0.1 Added models for access level and phase. Attribute localEnvironment added to TI and Accessed TR. SD id added to TI model.
+* 100fe17 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 040c63a -- Merge branch '13.0.1-pre-tag-changes' into 'master'
+* 8020b2d -- 13.0.1 pre tag changes
 ### 13.0.0 Update to Angular 13, CI/CD optimization, hasRelation changes to counter of relations.
 * 596ee4f -- [CI/CD] Update packages.json version based on GitLab tag.
 *   ca20eed -- Merge branch '40-update-to-angular-13' into 'master'
