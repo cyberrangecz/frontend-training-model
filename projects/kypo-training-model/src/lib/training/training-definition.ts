@@ -27,6 +27,7 @@ export class TrainingDefinition {
   levels: Level[] | Phase[];
   defaultContent: boolean;
   lastEditBy: string;
+  hasReferenceSolution: boolean;
 
   lastEditTimeFormatted: string;
   private _lastEditTime: Date;
