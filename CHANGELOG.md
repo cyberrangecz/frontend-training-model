@@ -1,3 +1,7 @@
+### 13.0.2 Added has reference solution field to definition.
+* 7e2e5b4 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 6ae797d -- Merge branch '45-add-has-reference-solution-field' into 'master'
+* cd9a97e -- Resolve "Add has reference solution field"
 ### 13.0.1 Added models for access level and phase. Attribute localEnvironment added to TI and Accessed TR. SD id added to TI model.
 * 100fe17 -- [CI/CD] Update packages.json version based on GitLab tag.
 * 040c63a -- Merge branch '13.0.1-pre-tag-changes' into 'master'
