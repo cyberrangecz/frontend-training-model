@@ -8,6 +8,7 @@ export abstract class Level {
   title: string;
   order: number;
   estimatedDuration: number;
+  minimalPossibleSolveTime: number;
   maxScore: number;
   valid: boolean;
   type: AbstractLevelTypeEnum;
