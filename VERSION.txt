@@ -1,3 +1,4 @@
+13.0.4 Added mitre attack techniques.
 13.0.3 Added field supporting minimal possible solve time for level.
 13.0.2 Added has reference solution field to definition.
 13.0.1 Added models for access level and phase. Attribute localEnvironment added to TI and Accessed TR. SD id added to TI model.

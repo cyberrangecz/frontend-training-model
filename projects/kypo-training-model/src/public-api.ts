@@ -61,3 +61,6 @@ export * from './lib/user-ref/beta-tester';
 
 // VISUALIZATION
 export * from './lib/visualization/visualization-info';
+
+// MITRE TECHNIQUES
+export * from './lib/mitre-techniques/mitre-technique';

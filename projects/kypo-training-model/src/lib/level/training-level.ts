@@ -1,3 +1,4 @@
+import { MitreTechnique } from '../mitre-techniques/mitre-technique';
 import { Hint } from './hint';
 import { Level } from './level';
 import { ReferenceSolutionNode } from './reference-solution-node';
@@ -15,6 +16,8 @@ export class TrainingLevel extends Level {
   solutionPenalized = true;
   referenceSolution: ReferenceSolutionNode[];
   variantAnswers: boolean;
+  mitreTechniques: MitreTechnique[];
+  expectedCommands: string[];
 
   constructor() {
     super();
