@@ -1,3 +1,7 @@
+### 13.0.4 Added mitre attack techniques.
+* 84b0b5a -- [CI/CD] Update packages.json version based on GitLab tag.
+* b8b299b -- Merge branch '46-add-support-for-map-of-games' into 'master'
+* ecf7b02 -- Resolve "Add support for map of games"
 ### 13.0.3 Added field supporting minimal possible solve time for level.
 * 53f4c85 -- [CI/CD] Update packages.json version based on GitLab tag.
 * 857460d -- Merge branch '13.x.x-pre-tag-changes' into 'master'
