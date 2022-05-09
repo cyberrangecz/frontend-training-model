@@ -9,6 +9,7 @@ export class AdaptiveQuestion {
   questionType: QuestionTypeEnum;
   relations: number;
   choices: Choice[];
+  userAnswers?: string[];
 
   constructor() {
     this.valid = true;

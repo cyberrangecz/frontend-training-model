@@ -14,4 +14,5 @@ export class AccessTrainingRunInfo {
   isPreview: boolean;
   startTime: Date;
   localEnvironment: boolean;
+  backwardMode: boolean;
 }
