@@ -15,4 +15,5 @@ export class AccessTrainingRunInfo {
   startTime: Date;
   localEnvironment: boolean;
   backwardMode: boolean;
+  isLevelAnswered: boolean;
 }
