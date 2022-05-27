@@ -1,3 +1,11 @@
+### 13.0.6 Added field levelAnswered to AccessTrainingRun model.
+* d74ae6b -- [CI/CD] Update packages.json version based on GitLab tag.
+*   ed68209 -- Merge branch '445537-master-patch-01881' into 'master'
+|\  
+| * 2f09bd6 -- Update version to 13.0.6
+|/  
+* b33d6b8 -- Merge branch '49-add-field-islevelanswered-to-accesstrainingruninfo' into 'master'
+* 35de6ea -- Added field isLevelAnswered to AccessTrainingRunInfo
 ### 13.0.5 Added support for movement between already completed levels.
 * 9c212a3 -- [CI/CD] Update packages.json version based on GitLab tag.
 * 4b40505 -- Merge branch '48-add-necessary-fields-to-support-movement-between-accessed-levels-phases-during-training-run' into 'master'
