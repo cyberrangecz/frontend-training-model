@@ -1,3 +1,4 @@
+13.0.6 Added field levelAnswered to AccessTrainingRun model.
 13.0.5 Added support for movement between already completed levels.
 13.0.4 Added mitre attack techniques.
 13.0.3 Added field supporting minimal possible solve time for level.
