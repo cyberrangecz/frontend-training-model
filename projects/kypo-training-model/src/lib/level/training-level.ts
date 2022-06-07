@@ -18,6 +18,7 @@ export class TrainingLevel extends Level {
   variantAnswers: boolean;
   mitreTechniques: MitreTechnique[];
   expectedCommands: string[];
+  commandsRequired = true;
 
   constructor() {
     super();
