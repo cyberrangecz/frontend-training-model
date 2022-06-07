@@ -20,7 +20,7 @@ export class TrainingInstance {
    * True if current time is greater than start time of the training instance, false otherwise
    */
   hasStarted(): boolean {
-    return new Date().valueOf() >= this.startTime.valueOf();
+    return new Date().valueOf() >= this.startTime?.valueOf();
   }
 
   hasPool(): boolean {

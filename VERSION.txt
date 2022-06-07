@@ -1,3 +1,4 @@
+13.0.8 Allow empty start time in training instance.
 13.0.7 Added field commandsRequired to TrainingLevel model.
 13.0.6 Added field levelAnswered to AccessTrainingRun model.
 13.0.5 Added support for movement between already completed levels.
