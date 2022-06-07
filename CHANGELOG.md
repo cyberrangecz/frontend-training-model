@@ -1,3 +1,7 @@
+### 13.0.8 Allow empty start time in training instance.
+* 4acb8ba -- [CI/CD] Update packages.json version based on GitLab tag.
+* cc1fc9f -- Merge branch '51-allow-empty-start-time-in-training-instance' into 'master'
+* ff27d57 -- Resolve "Allow empty start time in training instance"
 ### 13.0.7 Added field commandsRequired to TrainingLevel model.
 * c38bc39 -- [CI/CD] Update packages.json version based on GitLab tag.
 * d8f5758 -- Merge branch '50-add-attribute-commandsrequired-to-training-level' into 'master'
