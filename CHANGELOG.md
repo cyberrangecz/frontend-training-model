@@ -1,3 +1,7 @@
+### 13.0.7 Added field commandsRequired to TrainingLevel model.
+* c38bc39 -- [CI/CD] Update packages.json version based on GitLab tag.
+* d8f5758 -- Merge branch '50-add-attribute-commandsrequired-to-training-level' into 'master'
+* a59d915 -- Added attribute commandsRequired to training level model
 ### 13.0.6 Added field levelAnswered to AccessTrainingRun model.
 * d74ae6b -- [CI/CD] Update packages.json version based on GitLab tag.
 *   ed68209 -- Merge branch '445537-master-patch-01881' into 'master'
