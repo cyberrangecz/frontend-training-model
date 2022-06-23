@@ -1,3 +1,11 @@
+### 14.0.0 Update to Angular 14.
+* 8959504 -- [CI/CD] Update packages.json version based on GitLab tag.
+*   5eeae8a -- Merge branch '53-release-v14' into 'master'
+|\  
+| * 6c92f03 -- Resolve "Release v14"
+|/  
+* 56bec43 -- Merge branch '52-update-to-angular-14' into 'master'
+* fe93539 -- Resolve "Update to Angular 14"
 ### 13.0.8 Allow empty start time in training instance.
 * 4acb8ba -- [CI/CD] Update packages.json version based on GitLab tag.
 * cc1fc9f -- Merge branch '51-allow-empty-start-time-in-training-instance' into 'master'
