@@ -1,10 +1,11 @@
-import { CheatTypeEnum } from '../enums/cheatType.enum';
 
 /**
- * Class representing detection event on training instance
+ * Parent class of all detection events
  */
 export class DetectionEvent {
+
   trainingInstanceId: number;
-  cheatingType: CheatTypeEnum;
-  startTime: number;
+  cheatingDetectionId: number;
+  occuredAt: number;
+  levelId: number;
 }
