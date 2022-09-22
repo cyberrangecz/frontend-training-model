@@ -4,5 +4,5 @@ export enum AbstractDetectionEventTypeEnum {
   Time_proximity = 'time_proximity',
   Minimal_solve_time = 'minimal_solve_time',
   No_commands = 'no_commands',
-  Location_similarity = 'location_similarity'
+  Location_similarity = 'location_similarity',
 }

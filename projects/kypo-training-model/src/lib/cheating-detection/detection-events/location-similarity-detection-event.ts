@@ -1,4 +1,4 @@
-import { DetectionEvent} from "./detection-event";
+import { DetectionEvent } from './detection-event';
 
 /**
  * Class representing detection event of type Location Similarity
