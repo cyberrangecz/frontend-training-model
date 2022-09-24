@@ -8,7 +8,7 @@ export class DetectionEvent {
   cheatingDetectionId: number;
   detectionType: AbstractDetectionEventTypeEnum;
   occurredAt: number;
-  detectedAt:number;
+  detectedAt: number;
   levelName: string;
   levelId: number;
   participantCount: number;
