@@ -1,4 +1,5 @@
 import { DetectionEvent } from './detection-event';
+import { DetectionEventParticipant } from './detection-event-participant';
 
 /**
  * Class representing detection event of type Minimal Solve Time
@@ -6,7 +7,7 @@ import { DetectionEvent } from './detection-event';
 export class MinimalSolveTimeDetectionEvent extends DetectionEvent {
   minimalSolveTime: number;
   solvedInTime: number;
-  participant: string;
+  participant: DetectionEventParticipant;
 
   constructor() {
     super();

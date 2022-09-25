@@ -1,11 +1,13 @@
 import { DetectionEvent } from './detection-event';
+import { DetectionEventParticipant } from './detection-event-participant';
+import { ForbiddenCommand } from './forbidden-command';
 
 /**
  * Class representing detection event of type Forbidden Commands
  */
 export class ForbiddenCommandsDetectionEvent extends DetectionEvent {
-  forbiddenCommands: [{ commands: string; type: boolean }];
-  participant: string;
+  forbiddenCommands: ForbiddenCommand[];
+  participant: DetectionEventParticipant;
 
   constructor() {
     super();

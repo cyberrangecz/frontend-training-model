@@ -17,6 +17,7 @@ export class TrainingRun {
   currentLevel: Level | number | Phase;
   eventLogReference: string;
   state: TrainingRunStateEnum;
+  hasSuspiciousActivity: boolean;
 
   isRunning(): boolean {
     return this.state === TrainingRunStateEnum.RUNNING;
