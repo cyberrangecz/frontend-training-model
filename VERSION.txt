@@ -1,3 +1,4 @@
+14.0.1 Added attributes to TrainingRun stating whether logging of events and commands works.
 14.0.0 Update to Angular 14.
 13.0.8 Allow empty start time in training instance.
 13.0.7 Added field commandsRequired to TrainingLevel model.
