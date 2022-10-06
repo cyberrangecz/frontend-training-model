@@ -3,12 +3,12 @@
  */
 import { AbstractDetectionEventTypeEnum } from '../../enums/abstract-detection-event-type.enum';
 
-export class DetectionEvent {
+export class AbstractDetectionEvent {
   trainingInstanceId: number;
   cheatingDetectionId: number;
-  detectionType: AbstractDetectionEventTypeEnum;
+  detectionEventType: AbstractDetectionEventTypeEnum;
   detectedAt: number;
-  levelName: string;
+  levelTitle: string;
   levelId: number;
   participantCount: number;
 }

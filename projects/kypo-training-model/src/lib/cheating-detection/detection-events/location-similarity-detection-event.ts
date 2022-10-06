@@ -1,13 +1,13 @@
-import { DetectionEvent } from './detection-event';
+import { AbstractDetectionEvent } from './detection-event';
 import { DetectionEventParticipant } from './detection-event-participant';
 
 /**
  * Class representing detection event of type Location Similarity
  */
-export class LocationSimilarityDetectionEvent extends DetectionEvent {
-  ip_address: string;
-  dns_name: string;
-  isIpAddressOfDeployed: boolean;
+export class LocationSimilarityDetectionEvent extends AbstractDetectionEvent {
+  ipAddress: string;
+  dns: string;
+  isAddressOfDeploy: boolean;
   participants: DetectionEventParticipant[];
 
   constructor() {
