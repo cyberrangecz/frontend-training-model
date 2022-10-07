@@ -7,7 +7,7 @@ import { DetectionEventParticipant } from './detection-event-participant';
 export class LocationSimilarityDetectionEvent extends AbstractDetectionEvent {
   ipAddress: string;
   dns: string;
-  isAddressOfDeploy: boolean;
+  isAddressDeploy: boolean;
   participants: DetectionEventParticipant[];
 
   constructor() {
