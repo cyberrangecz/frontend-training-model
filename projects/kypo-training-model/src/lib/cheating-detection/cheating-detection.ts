@@ -7,8 +7,8 @@ import { ForbiddenCommand } from './detection-events/forbidden-command';
 export class CheatingDetection {
   trainingInstanceId: number;
   executedBy: number;
-  executeTime: number;
-  proximityTreshold?: number;
+  executeTime: Date;
+  proximityThreshold?: number;
   id: number;
   state: CheatingDetectionStateEnum;
   results: string;

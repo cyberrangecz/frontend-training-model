@@ -3,7 +3,7 @@
  */
 export class DetectionEventParticipant {
   ipAddress?: string;
-  occurredAt: number;
+  occurredAt: Date;
   solvedInTime?: number;
   name: string;
 }

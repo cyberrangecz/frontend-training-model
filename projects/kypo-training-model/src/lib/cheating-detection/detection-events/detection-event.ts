@@ -7,7 +7,7 @@ export class AbstractDetectionEvent {
   trainingInstanceId: number;
   cheatingDetectionId: number;
   detectionEventType: AbstractDetectionEventTypeEnum;
-  detectedAt: number;
+  detectedAt: Date;
   levelTitle: string;
   levelId: number;
   participantCount: number;
