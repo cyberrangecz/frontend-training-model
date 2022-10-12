@@ -10,9 +10,13 @@ export class CheatingDetection {
   executeTime: Date;
   proximityThreshold?: number;
   id: number;
-  state: CheatingDetectionStateEnum;
+  cheatingDetectionState: CheatingDetectionStateEnum;
   results: string;
-  detectionStates: CheatingDetectionStateEnum[];
-  detectionFlags: boolean[];
+  answerSimilarityState: CheatingDetectionStateEnum;
+  locationSimilarityState: CheatingDetectionStateEnum;
+  timeProximityState: CheatingDetectionStateEnum;
+  minimalSolveTimeState: CheatingDetectionStateEnum;
+  noCommandsState: CheatingDetectionStateEnum;
+  forbiddenCommandsState: CheatingDetectionStateEnum;
   forbiddenCommands?: ForbiddenCommand[];
 }

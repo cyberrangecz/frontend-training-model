@@ -5,5 +5,5 @@ export class DetectionEventParticipant {
   ipAddress?: string;
   occurredAt: Date;
   solvedInTime?: number;
-  name: string;
+  userId: number;
 }
