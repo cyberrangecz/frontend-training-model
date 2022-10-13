@@ -13,7 +13,9 @@ export * from './lib/cheating-detection/detection-events/location-similarity-det
 export * from './lib/cheating-detection/detection-events/minimal-solve-time-detection-event';
 export * from './lib/cheating-detection/detection-events/time-proximity-detection-event';
 // ENUMS
+export * from './lib/enums/abstract-detection-event-type.enum';
 export * from './lib/enums/abstract-level-type.enum';
+export * from './lib/enums/cheating-detection-state.enum';
 export * from './lib/enums/assessment-type.enum';
 export * from './lib/enums/trainee-access-training-run-actions.enum';
 export * from './lib/enums/training-definition-state.enum';
