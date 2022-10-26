@@ -6,12 +6,12 @@ import { ForbiddenCommand } from './detection-events/forbidden-command';
 
 export class CheatingDetection {
   trainingInstanceId: number;
-  executedBy: number;
+  executedBy: string;
   executeTime: Date;
   proximityThreshold?: number;
   id: number;
   cheatingDetectionState: CheatingDetectionStateEnum;
-  results: string;
+  results: number;
   answerSimilarityState: CheatingDetectionStateEnum;
   locationSimilarityState: CheatingDetectionStateEnum;
   timeProximityState: CheatingDetectionStateEnum;
