@@ -1,3 +1,7 @@
+### 14.0.1 Added attributes to TrainingRun stating whether logging of events and commands works.
+* f8266ee -- [CI/CD] Update packages.json version based on GitLab tag.
+* 3da6352 -- Merge branch '54-add-attribute-stating-whether-event-and-command-logging-works' into 'master'
+* d02850e -- Resolve "Add attribute stating whether event and command logging works"
 ### 14.0.0 Update to Angular 14.
 * 8959504 -- [CI/CD] Update packages.json version based on GitLab tag.
 *   5eeae8a -- Merge branch '53-release-v14' into 'master'

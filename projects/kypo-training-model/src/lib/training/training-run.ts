@@ -18,6 +18,8 @@ export class TrainingRun {
   eventLogReference: string;
   state: TrainingRunStateEnum;
   hasDetectionEvent: boolean;
+  eventLogging: boolean;
+  commandLogging: boolean;
 
   isRunning(): boolean {
     return this.state === TrainingRunStateEnum.RUNNING;
