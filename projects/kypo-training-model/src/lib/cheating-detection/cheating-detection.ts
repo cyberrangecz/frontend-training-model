@@ -17,6 +17,6 @@ export class CheatingDetection {
   timeProximityState: CheatingDetectionStateEnum;
   minimalSolveTimeState: CheatingDetectionStateEnum;
   noCommandsState: CheatingDetectionStateEnum;
-  //forbiddenCommandsState: CheatingDetectionStateEnum;
+  forbiddenCommandsState: CheatingDetectionStateEnum;
   //forbiddenCommands?: ForbiddenCommand[];
 }
