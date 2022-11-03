@@ -1,5 +1,6 @@
 /**
  * This class represents a forbidden command
+ * used in a forbidden command detection event
  */
 
 export class ForbiddenCommand {
