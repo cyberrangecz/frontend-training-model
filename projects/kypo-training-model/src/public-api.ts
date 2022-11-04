@@ -1,9 +1,21 @@
 /*
  * Public API Surface of kypo-training-model
  */
-
+// CHEATING DETECTION
+export * from './lib/cheating-detection/cheating-detection';
+export * from './lib/cheating-detection/detection-events/detection-event';
+export * from './lib/cheating-detection/detection-events/detection-event-participant';
+export * from './lib/cheating-detection/detection-events/answer-similarity-detection-event';
+export * from './lib/cheating-detection/detection-events/forbidden-commands-detection-event';
+export * from './lib/cheating-detection/detection-events/no-commands-detection-event';
+export * from './lib/cheating-detection/detection-events/forbidden-command';
+export * from './lib/cheating-detection/detection-events/location-similarity-detection-event';
+export * from './lib/cheating-detection/detection-events/minimal-solve-time-detection-event';
+export * from './lib/cheating-detection/detection-events/time-proximity-detection-event';
 // ENUMS
+export * from './lib/enums/abstract-detection-event-type.enum';
 export * from './lib/enums/abstract-level-type.enum';
+export * from './lib/enums/cheating-detection-state.enum';
 export * from './lib/enums/assessment-type.enum';
 export * from './lib/enums/trainee-access-training-run-actions.enum';
 export * from './lib/enums/training-definition-state.enum';
