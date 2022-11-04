@@ -17,6 +17,7 @@ export class TrainingRun {
   currentLevel: Level | number | Phase;
   eventLogReference: string;
   state: TrainingRunStateEnum;
+  hasDetectionEvent: boolean;
   eventLogging: boolean;
   commandLogging: boolean;
 
