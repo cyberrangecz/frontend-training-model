@@ -6,8 +6,6 @@ import { DetectionEventParticipant } from './detection-event-participant';
  */
 export class ForbiddenCommandsDetectionEvent extends AbstractDetectionEvent {
   forbiddenCommands: string[];
-  participant: DetectionEventParticipant;
-
   constructor() {
     super();
   }

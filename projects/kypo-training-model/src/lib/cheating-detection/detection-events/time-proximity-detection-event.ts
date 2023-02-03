@@ -6,7 +6,6 @@ import { DetectionEventParticipant } from './detection-event-participant';
  */
 export class TimeProximityDetectionEvent extends AbstractDetectionEvent {
   threshold: number;
-  participants: DetectionEventParticipant[];
 
   constructor() {
     super();

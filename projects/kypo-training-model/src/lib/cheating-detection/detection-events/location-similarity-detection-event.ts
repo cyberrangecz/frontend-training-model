@@ -8,7 +8,6 @@ export class LocationSimilarityDetectionEvent extends AbstractDetectionEvent {
   ipAddress: string;
   dns: string;
   isAddressDeploy: boolean;
-  participants: DetectionEventParticipant[];
 
   constructor() {
     super();
