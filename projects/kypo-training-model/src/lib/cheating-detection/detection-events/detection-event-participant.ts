@@ -7,4 +7,5 @@ export class DetectionEventParticipant {
   participantName: string;
   solvedInTime?: number;
   userId: number;
+  detectionEventId: number;
 }
