@@ -1,3 +1,11 @@
+### 14.2.0 Replace sandbox instance id with sandbox uuid.
+* 8bae559 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 5a7660b -- Merge branch 'fix-sandbox-uuid' into 'master'
+* 58194ba -- Replaced sandbox id with uuid
+### 14.1.0 Add models and enums for experimental version of cheating detection.
+* f9237b2 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 8783ee1 -- Merge branch 'cheating-detection' into 'master'
+* 7975ddc -- Cheating detection
 ### 14.0.1 Added attributes to TrainingRun stating whether logging of events and commands works.
 * f8266ee -- [CI/CD] Update packages.json version based on GitLab tag.
 * 3da6352 -- Merge branch '54-add-attribute-stating-whether-event-and-command-logging-works' into 'master'

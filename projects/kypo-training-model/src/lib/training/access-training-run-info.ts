@@ -6,7 +6,7 @@ import { Phase } from '../phase/phase';
  */
 export class AccessTrainingRunInfo {
   trainingRunId: number;
-  sandboxInstanceId?: number;
+  sandboxInstanceId?: string;
   sandboxDefinitionId?: number;
   currentLevel: Level | Phase;
   levels: Level[] | Phase[];
