@@ -6,7 +6,6 @@ import { DetectionEventParticipant } from './detection-event-participant';
  */
 export class MinimalSolveTimeDetectionEvent extends AbstractDetectionEvent {
   minimalSolveTime: number;
-  participants: DetectionEventParticipant[];
 
   constructor() {
     super();

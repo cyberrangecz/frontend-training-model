@@ -7,8 +7,6 @@ import { DetectionEventParticipant } from './detection-event-participant';
 export class AnswerSimilarityDetectionEvent extends AbstractDetectionEvent {
   answer: string;
   answerOwner: string;
-  participants: DetectionEventParticipant[];
-
   constructor() {
     super();
   }
