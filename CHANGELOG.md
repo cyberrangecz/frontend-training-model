@@ -1,3 +1,38 @@
+### 14.2.1 Update models and enums for experimental version of cheating detection.
+* 7e040f3 -- [CI/CD] Update packages.json version based on GitLab tag.
+* c6fe291 -- Merge branch 'cheating-detection' into 'master'
+* 7c65512 -- Update version.
+* 1a8f1c8 -- Merge changes from master
+*   9e83d4b -- Merge branch 'develop'
+|\  
+| * 71114d7 -- updated Dtos and mappers with new backend attributes.
+* | e64404d -- Added detection event id to detection event participant.
+* | b9f7b03 -- Merge branch 'develop' into 'master'
+|\| 
+| * 9e09819 -- Removed unused import and updated documentation.
+* | 8e721ad -- Revert package.json version change.
+* | c172a6f -- Update version in package.json.
+|/  
+* 11a0acb -- Remove cli analytics.
+* 30accc8 -- restore forbidden_commands_state attribute.
+* 52c98e7 -- Remove forbidden commands from cheating detection, rename detection state.
+* 9d91d1e -- Update version.
+* 591fb10 -- Merge changes from upstream.
+* 72c3885 -- Updated cheating detection and participant.
+* b06505b -- Updated public-api.
+* f1fcaf8 -- Reflect latest backend modifications.
+* 460ff1a -- Prettier-fix.
+* b76bd1c -- Added id and changed Date types.
+* 81fbd8c -- Reflect latest changes to cheating detection backend 3.
+* f3926a2 -- Reflect latest changes to cheating detection backend 2.
+* 114df89 -- Reflect Latest changes to cheating detection backend.
+* c691f44 -- Changes to models and mappers.
+* c6f2387 -- Batch of changes to detection format and table.
+* adda7da -- Batch of changes to detection format and table.
+* 6fe61a7 -- Modifications to cheating-detection-create and cheating-detection models.
+* fcd639b -- Add specific classes of detection event.
+* 5543a1e -- Update model of cheating detection and detection event
+* 0198f8f -- Added cheating detection related models.
 ### 14.2.0 Replace sandbox instance id with sandbox uuid.
 * 8bae559 -- [CI/CD] Update packages.json version based on GitLab tag.
 * 5a7660b -- Merge branch 'fix-sandbox-uuid' into 'master'
