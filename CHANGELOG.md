@@ -1,3 +1,8 @@
+### 14.2.2 Fix questions saving without correct answers.
+* e46291a -- [CI/CD] Update packages.json version based on GitLab tag.
+* 7592996 -- Merge branch 'develop' into 'master'
+* 29a1198 -- Merge branch '55-set-default-value-for-valid-in-questions-to-false-2' into 'develop'
+* 830263a -- Set questions's valid parameter default value to false.
 ### 14.2.1 Update models and enums for experimental version of cheating detection.
 * 7e040f3 -- [CI/CD] Update packages.json version based on GitLab tag.
 * c6fe291 -- Merge branch 'cheating-detection' into 'master'
