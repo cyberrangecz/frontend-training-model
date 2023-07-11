@@ -12,6 +12,6 @@ export class AdaptiveQuestion {
   userAnswers?: string[];
 
   constructor() {
-    this.valid = true;
+    this.valid = false;
   }
 }
