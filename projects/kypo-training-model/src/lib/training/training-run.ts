@@ -9,6 +9,7 @@ import { Phase } from '../phase/phase';
 export class TrainingRun {
   id: number;
   sandboxInstanceId: string;
+  sandboxInstanceAllocationId: number;
   trainingInstanceId: number;
   trainingDefinitionId: number;
   player: Trainee;
