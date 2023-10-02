@@ -33,7 +33,6 @@ export class TrainingDefinition {
   lastEditTimeFormatted: string;
   private _lastEditTime: Date;
 
-
   constructor() {
     this.showStepperBar = true;
     this.outcomes = [];
