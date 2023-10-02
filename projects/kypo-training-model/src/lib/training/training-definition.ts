@@ -28,9 +28,11 @@ export class TrainingDefinition {
   defaultContent: boolean;
   lastEditBy: string;
   hasReferenceSolution: boolean;
+  createdAt: Date;
 
   lastEditTimeFormatted: string;
   private _lastEditTime: Date;
+
 
   constructor() {
     this.showStepperBar = true;
