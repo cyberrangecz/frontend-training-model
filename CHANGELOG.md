@@ -1,3 +1,9 @@
+### 14.2.3 Add createdBy attribute to training definition.
+* 33b55d7 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 4016df5 -- Merge branch 'develop' into 'master'
+* 86f3c15 -- Merge branch '58-add-createdat-to-td-model' into 'develop'
+* fa79157 -- prettier
+* 960ce29 -- Add createdAt to training definition.
 ### 14.2.2 Fix questions saving without correct answers.
 * e46291a -- [CI/CD] Update packages.json version based on GitLab tag.
 * 7592996 -- Merge branch 'develop' into 'master'
