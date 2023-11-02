@@ -1,3 +1,7 @@
+### 15.0.0 Update to Angular 15.
+* 7b51b5b -- [CI/CD] Update packages.json version based on GitLab tag.
+* 5a3eb58 -- Merge branch '59-update-to-anuglar-15' into 'master'
+* 3fd1ae5 -- Update to Angular 15
 ### 14.2.3 Add createdBy attribute to training definition.
 * 33b55d7 -- [CI/CD] Update packages.json version based on GitLab tag.
 * 4016df5 -- Merge branch 'develop' into 'master'
