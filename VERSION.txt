@@ -1,4 +1,5 @@
-14.2.4 Add allocation id attribute to training run.
+15.0.1 Add allocation id attribute to training run.
+15.0.0 Update to Angular 15.
 14.2.3 Add createdBy attribute to training definition.
 14.2.2 Fix questions saving without correct answers.
 14.2.1 Update models and enums for experimental version of cheating detection.
