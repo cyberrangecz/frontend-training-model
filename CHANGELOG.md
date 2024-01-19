@@ -1,3 +1,18 @@
+### 15.0.0 Update to Angular 15.
+* 7b51b5b -- [CI/CD] Update packages.json version based on GitLab tag.
+* 5a3eb58 -- Merge branch '59-update-to-anuglar-15' into 'master'
+* 3fd1ae5 -- Update to Angular 15
+### 14.2.3 Add createdBy attribute to training definition.
+* 33b55d7 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 4016df5 -- Merge branch 'develop' into 'master'
+* 86f3c15 -- Merge branch '58-add-createdat-to-td-model' into 'develop'
+* fa79157 -- prettier
+* 960ce29 -- Add createdAt to training definition.
+### 14.2.2 Fix questions saving without correct answers.
+* e46291a -- [CI/CD] Update packages.json version based on GitLab tag.
+* 7592996 -- Merge branch 'develop' into 'master'
+* 29a1198 -- Merge branch '55-set-default-value-for-valid-in-questions-to-false-2' into 'develop'
+* 830263a -- Set questions's valid parameter default value to false.
 ### 14.2.1 Update models and enums for experimental version of cheating detection.
 * 7e040f3 -- [CI/CD] Update packages.json version based on GitLab tag.
 * c6fe291 -- Merge branch 'cheating-detection' into 'master'
