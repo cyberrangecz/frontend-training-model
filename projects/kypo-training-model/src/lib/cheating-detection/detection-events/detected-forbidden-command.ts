@@ -6,5 +6,5 @@
 export class ForbiddenCommand {
   command: string;
   type: string;
-  cheatingDetectionId: number;
+  detectionEventId: number;
 }
