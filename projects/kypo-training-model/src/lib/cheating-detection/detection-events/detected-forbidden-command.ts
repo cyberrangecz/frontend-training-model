@@ -3,7 +3,7 @@
  * used in a forbidden command detection event
  */
 
-export class ForbiddenCommand {
+export class DetectedForbiddenCommand {
   command: string;
   type: string;
   detectionEventId: number;
