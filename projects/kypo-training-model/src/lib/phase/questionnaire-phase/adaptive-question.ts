@@ -10,6 +10,7 @@ export class AdaptiveQuestion {
   relations: number;
   choices: Choice[];
   userAnswers?: string[];
+  isRequired: boolean;
 
   constructor() {
     this.valid = false;
