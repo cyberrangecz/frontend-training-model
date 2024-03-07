@@ -1,3 +1,8 @@
+### 15.1.0 Update cheating detection models.
+* ef0273f -- [CI/CD] Update packages.json version based on GitLab tag.
+* 0f1e4cb -- Merge branch 'develop' into 'master'
+* 1aa9508 -- Merge branch 'forbidden-commands-detection-method-integration' into 'develop'
+* ab3deac -- Forbidden commands detection method integration
 ### 15.0.1 Add allocation id attribute to training run.
 * 2b594a2 -- [CI/CD] Update packages.json version based on GitLab tag.
 * a649c40 -- Merge branch 'develop' into 'master'
