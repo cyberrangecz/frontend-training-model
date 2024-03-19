@@ -7,4 +7,6 @@ export class DetectedForbiddenCommand {
   command: string;
   type: string;
   detectionEventId: number;
+  hostname: string;
+  occurredAt: Date;
 }
