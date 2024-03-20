@@ -1,3 +1,8 @@
+### 15.1.1 Add hostname and occurredAt to detected forbidden command.
+* 6328193 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 7b5d33b -- Merge branch 'develop' into 'master'
+* add7a02 -- Merge branch 'forbidden-commands-detection-method-integration' into 'develop'
+* a70d88b -- Forbidden commands detection method integration
 ### 15.1.0 Update cheating detection models.
 * ef0273f -- [CI/CD] Update packages.json version based on GitLab tag.
 * 0f1e4cb -- Merge branch 'develop' into 'master'
