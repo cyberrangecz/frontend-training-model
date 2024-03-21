@@ -1,3 +1,7 @@
+### 15.1.2 Update detected forbidden command model.
+* a8e5d74 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 904976c -- Merge branch 'develop' into 'master'
+* d0b189c -- Develop
 ### 15.1.1 Add hostname and occurredAt to detected forbidden command.
 * 6328193 -- [CI/CD] Update packages.json version based on GitLab tag.
 * 7b5d33b -- Merge branch 'develop' into 'master'
