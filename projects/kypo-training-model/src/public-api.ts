@@ -25,6 +25,7 @@ export * from './lib/enums/abstract-phase-type.enum';
 export * from './lib/enums/question-type.enum';
 export * from './lib/enums/questionnaire-type.enum';
 export * from './lib/enums/training-run-type-enum';
+export * from './lib/enums/detected-forbidden-command-type.enum';
 
 // MAIN
 export * from './lib/training/access-training-run-info';
