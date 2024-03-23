@@ -11,6 +11,7 @@ export class AbstractDetectionEvent {
   detectedAt: Date;
   levelTitle: string;
   levelId: number;
+  levelOrder: number;
   participantCount: number;
   participants: string;
 }
