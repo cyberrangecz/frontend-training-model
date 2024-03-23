@@ -1,3 +1,30 @@
+### 15.1.3 Add level order to detection event.
+* d1202a4 -- [CI/CD] Update packages.json version based on GitLab tag.
+* f0d3287 -- Merge branch 'develop' into 'master'
+* 9be1f09 -- Merge branch 'master' into 'develop'
+*   30fa7ef -- Merge branch 'forbidden-commands-detection-method-integration' into 'develop'
+|\  
+| * dfc840c -- Add level order to detection event
+|/  
+* 41b4c2e -- Merge branch 'forbidden-commands-detection-method-integration' into 'develop'
+* 9ce073f -- Merge branch 'develop' into 'forbidden-commands-detection-method-integration'
+* ecd1da0 -- Update detected forbidden command model
+* 780fb6d -- Merge branch 'develop' into 'forbidden-commands-detection-method-integration'
+*   6464fa5 -- Add hostname and occurredAt to detected forbidden command.
+|\  
+| * ba41e5c -- Update detectedForbiddenCommand model
+* | 4ba329c -- Update version
+|/  
+* ca32b41 -- test tag
+* 753b02b -- Revert last change
+* 2796420 -- Remove cheating detection id from forbidden command
+* 161253f -- Add trainingRunId to forbidden detection event
+* dd233a1 -- Updated export api
+* 3747faa -- Update model name
+* 0c0cdfd -- Update cheating detection models
+* 7bfbdb0 -- Update detection event model
+* 2e97f09 -- Merge remote-tracking branch 'origin/develop' into forbidden-commands-detection-method-integration
+* 354ba96 -- Updated forbidden commands models
 ### 15.1.2 Update detected forbidden command model.
 * a8e5d74 -- [CI/CD] Update packages.json version based on GitLab tag.
 * 904976c -- Merge branch 'develop' into 'master'
