@@ -6,7 +6,6 @@ import { ForbiddenCommand } from './forbidden-command';
  */
 export class ForbiddenCommandsDetectionEvent extends AbstractDetectionEvent {
   commandCount: number;
-  trainingRunId: number;
   constructor() {
     super();
   }
