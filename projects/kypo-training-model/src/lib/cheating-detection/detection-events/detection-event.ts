@@ -5,6 +5,7 @@ import { AbstractDetectionEventTypeEnum } from '../../enums/abstract-detection-e
 
 export class AbstractDetectionEvent {
   id: number;
+  trainingRunId: number;
   trainingInstanceId: number;
   cheatingDetectionId: number;
   detectionEventType: AbstractDetectionEventTypeEnum;
