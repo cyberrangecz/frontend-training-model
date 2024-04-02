@@ -1,3 +1,11 @@
+### 15.0.1 Add allocation id attribute to training run.
+* 2b594a2 -- [CI/CD] Update packages.json version based on GitLab tag.
+* a649c40 -- Merge branch 'develop' into 'master'
+* 95cf836 -- Merge branch '57-add-allocation-id-to-training-run-model' into 'develop'
+* bc25c73 -- Merge develop
+* 0d2ef27 -- Update version
+* dc25364 -- Merge remote-tracking branch 'origin/develop' into 57-add-allocation-id-to-training-run-model
+* 0bc7bec -- Add sandbox instance allocation id to training run
 ### 15.0.0 Update to Angular 15.
 * 7b51b5b -- [CI/CD] Update packages.json version based on GitLab tag.
 * 5a3eb58 -- Merge branch '59-update-to-anuglar-15' into 'master'
