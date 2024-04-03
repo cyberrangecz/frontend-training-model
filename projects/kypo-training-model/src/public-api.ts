@@ -9,6 +9,7 @@ export * from './lib/cheating-detection/detection-events/answer-similarity-detec
 export * from './lib/cheating-detection/detection-events/forbidden-commands-detection-event';
 export * from './lib/cheating-detection/detection-events/no-commands-detection-event';
 export * from './lib/cheating-detection/detection-events/forbidden-command';
+export * from './lib/cheating-detection/detection-events/detected-forbidden-command';
 export * from './lib/cheating-detection/detection-events/location-similarity-detection-event';
 export * from './lib/cheating-detection/detection-events/minimal-solve-time-detection-event';
 export * from './lib/cheating-detection/detection-events/time-proximity-detection-event';
@@ -24,6 +25,7 @@ export * from './lib/enums/abstract-phase-type.enum';
 export * from './lib/enums/question-type.enum';
 export * from './lib/enums/questionnaire-type.enum';
 export * from './lib/enums/training-run-type-enum';
+export * from './lib/enums/detected-forbidden-command-type.enum';
 
 // MAIN
 export * from './lib/training/access-training-run-info';

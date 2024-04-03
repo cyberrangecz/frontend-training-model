@@ -1,3 +1,17 @@
+### 15.1.2 Update detected forbidden command model.
+* a8e5d74 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 904976c -- Merge branch 'develop' into 'master'
+* d0b189c -- Develop
+### 15.1.1 Add hostname and occurredAt to detected forbidden command.
+* 6328193 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 7b5d33b -- Merge branch 'develop' into 'master'
+* add7a02 -- Merge branch 'forbidden-commands-detection-method-integration' into 'develop'
+* a70d88b -- Forbidden commands detection method integration
+### 15.1.0 Update cheating detection models.
+* ef0273f -- [CI/CD] Update packages.json version based on GitLab tag.
+* 0f1e4cb -- Merge branch 'develop' into 'master'
+* 1aa9508 -- Merge branch 'forbidden-commands-detection-method-integration' into 'develop'
+* ab3deac -- Forbidden commands detection method integration
 ### 15.0.1 Add allocation id attribute to training run.
 * 2b594a2 -- [CI/CD] Update packages.json version based on GitLab tag.
 * a649c40 -- Merge branch 'develop' into 'master'
