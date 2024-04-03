@@ -1,3 +1,12 @@
+### 15.1.5 Add answerRequired field to adaptive question.
+* bed0c69 -- [CI/CD] Update packages.json version based on GitLab tag.
+* 8e54e78 -- Merge branch 'develop' into 'master'
+* c36de33 -- Merge branch '60-add-required-field-to-adaptive-question' into 'develop'
+* d1a423e -- Add version
+* e9fcd78 -- Merge branch 'develop' into 60-add-required-field-to-adaptive-question
+* 8d9119d -- Fix naming of answer required
+* 7acca36 -- Merge branch 'master' into 60-add-required-field-to-adaptive-question
+* a004917 -- Add required field to adaptive question
 ### 15.1.4 Add run id to detection event.
 * 18d8c2c -- [CI/CD] Update packages.json version based on GitLab tag.
 * 6421beb -- Merge branch 'develop' into 'master'
