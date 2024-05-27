@@ -2,10 +2,10 @@
   "name": "@muni-kypo-crp/training-model",
   "version": "15.1.5",
   "peerDependencies": {
-    "@angular/common": "~13.2.1",
-    "@angular/core": "~13.2.1"
+    "@angular/common": "~16.2.12",
+    "@angular/core": "~16.2.12"
   },
   "dependencies": {
-    "tslib": "^2.2.0"
+    "tslib": "^2.4.0"
   }
 }
