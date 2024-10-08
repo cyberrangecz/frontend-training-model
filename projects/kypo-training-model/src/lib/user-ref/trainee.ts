@@ -1,3 +1,3 @@
 import { TrainingUser } from './training-user';
 
-export type Trainee = TrainingUser
+export type Trainee = TrainingUser;

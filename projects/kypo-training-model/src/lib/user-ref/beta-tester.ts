@@ -1,3 +1,3 @@
 import { TrainingUser } from './training-user';
 
-export type BetaTester = TrainingUser
+export type BetaTester = TrainingUser;
