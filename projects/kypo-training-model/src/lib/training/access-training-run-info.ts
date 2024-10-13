@@ -10,6 +10,7 @@ export class AccessTrainingRunInfo {
   sandboxDefinitionId?: number;
   currentLevel: Level | Phase;
   levels: Level[] | Phase[];
+  isStepperDisplayed: boolean;
   isPreview: boolean;
   startTime: Date;
   localEnvironment: boolean;
