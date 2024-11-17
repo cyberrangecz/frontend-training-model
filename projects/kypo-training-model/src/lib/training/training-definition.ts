@@ -18,7 +18,6 @@ export class TrainingDefinition {
 
   id: number;
   estimatedDuration: number;
-  showStepperBar: boolean;
   title: string;
   description: string;
   prerequisites: string[];
@@ -34,7 +33,6 @@ export class TrainingDefinition {
   private _lastEditTime: Date;
 
   constructor() {
-    this.showStepperBar = true;
     this.outcomes = [];
     this.prerequisites = [];
     this.levels = [];
