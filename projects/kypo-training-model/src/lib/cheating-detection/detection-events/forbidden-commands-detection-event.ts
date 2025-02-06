@@ -5,6 +5,7 @@ import { AbstractDetectionEvent } from './detection-event';
  */
 export class ForbiddenCommandsDetectionEvent extends AbstractDetectionEvent {
   commandCount: number;
+
   constructor() {
     super();
   }

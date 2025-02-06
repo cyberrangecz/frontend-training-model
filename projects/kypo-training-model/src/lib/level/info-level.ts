@@ -5,6 +5,7 @@ import { Level } from './level';
  */
 export class InfoLevel extends Level {
   content: string;
+
   constructor() {
     super();
   }
