@@ -1,5 +1,5 @@
 /*
- * Public API Surface of kypo-training-model
+ * Public API Surface of training-model
  */
 // CHEATING DETECTION
 export * from './lib/cheating-detection/cheating-detection';

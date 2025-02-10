@@ -1,12 +1,6 @@
-# KYPO Training Model
+# CyberRangeᶜᶻ Platform Training Model
 
-This library contains frontend model of [KYPO Training service](https://gitlab.ics.muni.cz/kypo-crp/backend-java/kypo2-training).
-
-## Prerequisites
-
-To use the library you need to have installed:
-
-* NPM with access to [KYPO registry](https://projects.ics.muni.cz/projects/kbase/knowledgebase/articles/153)
+This library contains frontend model of [Training service](https://github.com/cyberrangecz/backend-training).
 
 ## Usage
 

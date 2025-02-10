@@ -16,9 +16,9 @@
             "dom"
         ],
         "paths": {
-            "kypo-training-model": [
-                "dist/kypo-training-model/kypo-training-model",
-                "dist/kypo-training-model"
+            "training-model": [
+                "dist/training-model/training-model",
+                "dist/training-model"
             ]
         }
     },
