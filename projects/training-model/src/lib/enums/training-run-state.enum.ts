@@ -1,5 +1,5 @@
 export enum TrainingRunStateEnum {
-  RUNNING = 'running',
-  FINISHED = 'finished',
-  ARCHIVED = 'archived',
+    RUNNING = 'running',
+    FINISHED = 'finished',
+    ARCHIVED = 'archived',
 }

@@ -4,7 +4,7 @@ import { TrainingDefinitionStateEnum } from '../enums/training-definition-state.
  * Class containing basic info about training definition
  */
 export class TrainingDefinitionInfo {
-  id: number;
-  title: string;
-  state: TrainingDefinitionStateEnum;
+    id: number;
+    title: string;
+    state: TrainingDefinitionStateEnum;
 }

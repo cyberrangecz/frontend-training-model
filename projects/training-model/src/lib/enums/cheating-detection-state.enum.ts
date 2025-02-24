@@ -1,6 +1,6 @@
 export enum CheatingDetectionStateEnum {
-  Queued = 'QUEUED',
-  Running = 'RUNNING',
-  Finished = 'FINISHED',
-  Disabled = 'DISABLED',
+    Queued = 'QUEUED',
+    Running = 'RUNNING',
+    Finished = 'FINISHED',
+    Disabled = 'DISABLED',
 }

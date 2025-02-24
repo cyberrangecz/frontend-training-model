@@ -1,4 +1,4 @@
 export enum QuestionnaireTypeEnum {
-  General = 'general',
-  Adaptive = 'adaptive',
+    General = 'general',
+    Adaptive = 'adaptive',
 }

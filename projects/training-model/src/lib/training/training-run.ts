@@ -7,26 +7,26 @@ import { Phase } from '../phase/phase';
  * Class representing training run
  */
 export class TrainingRun {
-  id: number;
-  sandboxInstanceId: string;
-  sandboxInstanceAllocationId: number;
-  trainingInstanceId: number;
-  trainingDefinitionId: number;
-  player: Trainee;
-  startTime: Date;
-  endTime: Date;
-  currentLevel: Level | number | Phase;
-  eventLogReference: string;
-  state: TrainingRunStateEnum;
-  hasDetectionEvent: boolean;
-  eventLogging: boolean;
-  commandLogging: boolean;
+    id: number;
+    sandboxInstanceId: string;
+    sandboxInstanceAllocationId: number;
+    trainingInstanceId: number;
+    trainingDefinitionId: number;
+    player: Trainee;
+    startTime: Date;
+    endTime: Date;
+    currentLevel: Level | number | Phase;
+    eventLogReference: string;
+    state: TrainingRunStateEnum;
+    hasDetectionEvent: boolean;
+    eventLogging: boolean;
+    commandLogging: boolean;
 
-  isRunning(): boolean {
-    return this.state === TrainingRunStateEnum.RUNNING;
-  }
+    isRunning(): boolean {
+        return this.state === TrainingRunStateEnum.RUNNING;
+    }
 
-  hasPlayer(): boolean {
-    return this.player !== undefined && this.player !== null;
-  }
+    hasPlayer(): boolean {
+        return this.player !== undefined && this.player !== null;
+    }
 }

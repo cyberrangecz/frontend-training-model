@@ -5,18 +5,18 @@ import { CheatingDetectionStateEnum } from '../enums/cheating-detection-state.en
 import { ForbiddenCommand } from './detection-events/forbidden-command';
 
 export class CheatingDetection {
-  trainingInstanceId: number;
-  executedBy: string;
-  executeTime: Date;
-  proximityThreshold?: number;
-  id: number;
-  currentState: CheatingDetectionStateEnum;
-  results: number;
-  answerSimilarityState: CheatingDetectionStateEnum;
-  locationSimilarityState: CheatingDetectionStateEnum;
-  timeProximityState: CheatingDetectionStateEnum;
-  minimalSolveTimeState: CheatingDetectionStateEnum;
-  noCommandsState: CheatingDetectionStateEnum;
-  forbiddenCommandsState: CheatingDetectionStateEnum;
-  forbiddenCommands?: ForbiddenCommand[];
+    trainingInstanceId: number;
+    executedBy: string;
+    executeTime: Date;
+    proximityThreshold?: number;
+    id: number;
+    currentState: CheatingDetectionStateEnum;
+    results: number;
+    answerSimilarityState: CheatingDetectionStateEnum;
+    locationSimilarityState: CheatingDetectionStateEnum;
+    timeProximityState: CheatingDetectionStateEnum;
+    minimalSolveTimeState: CheatingDetectionStateEnum;
+    noCommandsState: CheatingDetectionStateEnum;
+    forbiddenCommandsState: CheatingDetectionStateEnum;
+    forbiddenCommands?: ForbiddenCommand[];
 }

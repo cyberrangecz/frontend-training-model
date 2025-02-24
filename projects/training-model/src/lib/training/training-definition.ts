@@ -7,39 +7,39 @@ import { Phase } from '../phase/phase';
  * Class representing training definition in a system.
  */
 export class TrainingDefinition {
-  get lastEditTime(): Date {
-    return this._lastEditTime;
-  }
+    get lastEditTime(): Date {
+        return this._lastEditTime;
+    }
 
-  set lastEditTime(value: Date) {
-    this._lastEditTime = value;
-    this.lastEditTimeFormatted = formatDate(value, 'd MMM yyyy H:mm', 'en-US');
-  }
+    set lastEditTime(value: Date) {
+        this._lastEditTime = value;
+        this.lastEditTimeFormatted = formatDate(value, 'd MMM yyyy H:mm', 'en-US');
+    }
 
-  id: number;
-  estimatedDuration: number;
-  title: string;
-  description: string;
-  prerequisites: string[];
-  outcomes: string[];
-  state: TrainingDefinitionStateEnum;
-  levels: Level[] | Phase[];
-  defaultContent: boolean;
-  lastEditBy: string;
-  hasReferenceSolution: boolean;
-  createdAt: Date;
+    id: number;
+    estimatedDuration: number;
+    title: string;
+    description: string;
+    prerequisites: string[];
+    outcomes: string[];
+    state: TrainingDefinitionStateEnum;
+    levels: Level[] | Phase[];
+    defaultContent: boolean;
+    lastEditBy: string;
+    hasReferenceSolution: boolean;
+    createdAt: Date;
 
-  lastEditTimeFormatted: string;
-  private _lastEditTime: Date;
+    lastEditTimeFormatted: string;
+    private _lastEditTime: Date;
 
-  constructor() {
-    this.outcomes = [];
-    this.prerequisites = [];
-    this.levels = [];
-    this.defaultContent = false;
-  }
+    constructor() {
+        this.outcomes = [];
+        this.prerequisites = [];
+        this.levels = [];
+        this.defaultContent = false;
+    }
 
-  toString(): number {
-    return this.id;
-  }
+    toString(): number {
+        return this.id;
+    }
 }

@@ -4,7 +4,7 @@
  */
 
 export class ForbiddenCommand {
-  command: string;
-  type: string;
-  cheatingDetectionId: number;
+    command: string;
+    type: string;
+    cheatingDetectionId: number;
 }

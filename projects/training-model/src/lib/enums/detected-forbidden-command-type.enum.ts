@@ -1,4 +1,4 @@
 export enum DetectedForbiddenCommandTypeEnum {
-  Bash = 'BASH',
-  Msf = 'MSF',
+    Bash = 'BASH',
+    Msf = 'MSF',
 }

@@ -6,12 +6,12 @@ import { Level } from './level';
  * Class representing level in a training of type Assessment
  */
 export class AssessmentLevel extends Level {
-  questions: Question[];
-  instructions: string;
-  assessmentType: AssessmentTypeEnum;
+    questions: Question[];
+    instructions: string;
+    assessmentType: AssessmentTypeEnum;
 
-  constructor() {
-    super();
-    this.questions = [];
-  }
+    constructor() {
+        super();
+        this.questions = [];
+    }
 }

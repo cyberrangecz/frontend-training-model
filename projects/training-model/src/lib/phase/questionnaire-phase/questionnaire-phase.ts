@@ -4,12 +4,12 @@ import { PhaseRelation } from './phase-relation';
 import { QuestionnaireTypeEnum } from '../../enums/questionnaire-type.enum';
 
 export class QuestionnairePhase extends Phase {
-  questionnaireType: QuestionnaireTypeEnum;
-  questions: AdaptiveQuestion[];
-  phaseRelations: PhaseRelation[];
+    questionnaireType: QuestionnaireTypeEnum;
+    questions: AdaptiveQuestion[];
+    phaseRelations: PhaseRelation[];
 
-  constructor() {
-    super();
-    this.questions = [];
-  }
+    constructor() {
+        super();
+        this.questions = [];
+    }
 }

@@ -1,4 +1,4 @@
 export enum AssessmentTypeEnum {
-  Test = 'test',
-  Questionnaire = 'questionnaire',
+    Test = 'test',
+    Questionnaire = 'questionnaire',
 }

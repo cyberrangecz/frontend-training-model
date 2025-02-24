@@ -7,25 +7,25 @@ import { ReferenceSolutionNode } from './reference-solution-node';
  * Class representing level in a training of type Training
  */
 export class TrainingLevel extends Level {
-  answer: string;
-  answerVariableName: string;
-  hints: Hint[];
-  content: string;
-  solution: string;
-  incorrectAnswerLimit = 5;
-  solutionPenalized = true;
-  referenceSolution: ReferenceSolutionNode[];
-  variantAnswers: boolean;
-  mitreTechniques: MitreTechnique[];
-  expectedCommands: string[];
-  commandsRequired = true;
+    answer: string;
+    answerVariableName: string;
+    hints: Hint[];
+    content: string;
+    solution: string;
+    incorrectAnswerLimit = 5;
+    solutionPenalized = true;
+    referenceSolution: ReferenceSolutionNode[];
+    variantAnswers: boolean;
+    mitreTechniques: MitreTechnique[];
+    expectedCommands: string[];
+    commandsRequired = true;
 
-  constructor() {
-    super();
-    this.hints = [];
-  }
+    constructor() {
+        super();
+        this.hints = [];
+    }
 
-  hasSolution(): boolean {
-    return this.solution !== null && this.solution !== undefined;
-  }
+    hasSolution(): boolean {
+        return this.solution !== null && this.solution !== undefined;
+    }
 }

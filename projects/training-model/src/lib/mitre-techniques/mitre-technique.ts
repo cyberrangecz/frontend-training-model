@@ -1,5 +1,5 @@
 export class MitreTechnique {
-  id: number;
-  techniqueKey: string;
-  techniqueName: string;
+    id: number;
+    techniqueKey: string;
+    techniqueName: string;
 }

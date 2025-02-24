@@ -4,17 +4,17 @@
 import { AbstractLevelTypeEnum } from '../enums/abstract-level-type.enum';
 
 export abstract class Level {
-  id: number;
-  title: string;
-  order: number;
-  estimatedDuration: number;
-  minimalPossibleSolveTime: number;
-  maxScore: number;
-  valid: boolean;
-  type: AbstractLevelTypeEnum;
-  isUnsaved: boolean;
+    id: number;
+    title: string;
+    order: number;
+    estimatedDuration: number;
+    minimalPossibleSolveTime: number;
+    maxScore: number;
+    valid: boolean;
+    type: AbstractLevelTypeEnum;
+    isUnsaved: boolean;
 
-  protected constructor() {
-    this.valid = true;
-  }
+    protected constructor() {
+        this.valid = true;
+    }
 }

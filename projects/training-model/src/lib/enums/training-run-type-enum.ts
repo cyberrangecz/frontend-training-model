@@ -1,4 +1,4 @@
 export enum TrainingRunTypeEnum {
-  ADAPTIVE = 'adaptive',
-  LINEAR = 'linear',
+    ADAPTIVE = 'adaptive',
+    LINEAR = 'linear',
 }
