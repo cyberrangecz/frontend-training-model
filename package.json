@@ -7,7 +7,6 @@
         "start": "ng serve",
         "build": "ng build",
         "lint": "ng lint && npm run prettier-check",
-        "ci-test": "ng test --browsers ChromeHeadless --watch=false",
         "prettier-check": "prettier --check \"projects/**/*.ts\"",
         "prettier-fix": "prettier --write \"./projects/**/*.ts\"",
         "build-library": "ng build --configuration production training-model",
