@@ -1,9 +1,9 @@
 import { JeopardyLevelCategory } from './jeopardy-level-category';
 import { Level } from '../level';
-import { TrainingLevel } from '../training-level';
+import { JeopardySublevel } from './jeopardy-sublevel';
 
 export class JeopardyLevel extends Level {
-    subLevels: TrainingLevel[]
+    subLevels: JeopardySublevel[]
     categories?: JeopardyLevelCategory[];
 }
 
