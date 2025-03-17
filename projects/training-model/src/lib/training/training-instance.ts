@@ -33,6 +33,6 @@ export class TrainingInstance {
      * @param timestamp time to be compared with start time and end time of training instance
      */
     isActive(timestamp: number): boolean {
-        return this.startTime.valueOf() < timestamp && this.endTime.valueOf() > timestamp;
+        return !!this.startTime && this.startTime.valueOf() < timestamp && this.endTime.valueOf() > timestamp;
     }
 }

@@ -73,6 +73,11 @@ export * from './lib/user-ref/organizer';
 export * from './lib/user-ref/designer';
 export * from './lib/user-ref/beta-tester';
 
+// TEAM
+export * from './lib/user-ref/team/team';
+export * from './lib/user-ref/team/team-info';
+export * from './lib/user-ref/team/team-queue';
+
 // VISUALIZATION
 export * from './lib/visualization/visualization-info';
 
