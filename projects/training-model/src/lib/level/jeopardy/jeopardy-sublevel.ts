@@ -1,8 +1,11 @@
-import { TrainingLevel } from 'training-model';
-import { JeopardyLevelCategory } from './jeopardy-level-category';
+import { TrainingLevel } from '../training-level';
+import { AbstractLevelTypeEnum } from '../../enums/abstract-level-type.enum';
 
-export class JeopardySublevel {
-    level: TrainingLevel;
+export class JeopardySublevel extends TrainingLevel{
     description: string;
-    categoryId:  JeopardyLevelCategory['id'];
+
+    public constructor() {
+        super();
+        this.type = AbstractLevelTypeEnum.JeopardySublevel
+    }
 }

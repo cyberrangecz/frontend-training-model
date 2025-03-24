@@ -1,9 +1,15 @@
-import { JeopardyLevelCategory } from './jeopardy-level-category';
 import { Level } from '../level';
-import { JeopardySublevel } from './jeopardy-sublevel';
+import { JeopardyCategory } from './jeopardy-category';
+import { AbstractLevelTypeEnum } from '../../enums/abstract-level-type.enum';
 
 export class JeopardyLevel extends Level {
-    subLevels: JeopardySublevel[]
-    categories?: JeopardyLevelCategory[];
+
+    categories: JeopardyCategory[];
+
+    public constructor() {
+        super();
+        this.categories = [];
+        this.type = AbstractLevelTypeEnum.Jeopardy
+    }
 }
 

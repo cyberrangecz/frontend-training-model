@@ -2,6 +2,7 @@
  * Class representing training instance of a definition.
  */
 import { TrainingDefinition } from './training-definition';
+import { TrainingTypeEnum } from '../enums/training-type-enum';
 
 export class TrainingInstance {
     id: number;
@@ -16,6 +17,7 @@ export class TrainingInstance {
     sandboxDefinitionId: number;
     backwardMode: boolean;
     showStepperBar: boolean;
+    type: TrainingTypeEnum;
 
     /**
      * True if current time is greater than start time of the training instance, false otherwise

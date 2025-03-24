@@ -25,6 +25,7 @@ export * from './lib/enums/abstract-phase-type.enum';
 export * from './lib/enums/question-type.enum';
 export * from './lib/enums/questionnaire-type.enum';
 export * from './lib/enums/training-run-type-enum';
+export * from './lib/enums/training-type-enum';
 export * from './lib/enums/detected-forbidden-command-type.enum';
 
 // MAIN
@@ -42,6 +43,9 @@ export * from './lib/level/assessment-level';
 export * from './lib/level/level-answer-check';
 export * from './lib/level/level';
 export * from './lib/level/training-level';
+export * from './lib/level/jeopardy/jeopardy-level';
+export * from './lib/level/jeopardy/jeopardy-sublevel';
+export * from './lib/level/jeopardy/jeopardy-category';
 export * from './lib/level/hint';
 export * from './lib/level/info-level';
 export * from './lib/level/reference-solution-node';
