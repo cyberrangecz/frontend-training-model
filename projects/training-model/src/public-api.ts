@@ -34,6 +34,7 @@ export * from './lib/training/accessed-training-run';
 export * from './lib/training/training-definition-info';
 export * from './lib/training/training-definition';
 export * from './lib/training/training-instance';
+export * from './lib/training/training-instance-lobby';
 export * from './lib/training/training-run';
 export * from './lib/training/training-run-info';
 

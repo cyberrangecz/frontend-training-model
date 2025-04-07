@@ -3,6 +3,6 @@ import { TrainingUser } from '../training-user';
 export class Team {
     id: number;
     name: string;
-    started: boolean;
+    locked: boolean;
     members: TrainingUser[];
 }

@@ -17,7 +17,12 @@ export class TrainingInstance {
     sandboxDefinitionId: number;
     backwardMode: boolean;
     showStepperBar: boolean;
+    maxTeamSize: number;
     type: TrainingTypeEnum;
+
+    constructor() {
+        this.maxTeamSize = 4;
+    }
 
     /**
      * True if current time is greater than start time of the training instance, false otherwise
