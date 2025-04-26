@@ -2,6 +2,8 @@ import { TrainingRunStateEnum } from '../enums/training-run-state.enum';
 import { Level } from '../level/level';
 import { Trainee } from '../user-ref/trainee';
 import { Phase } from '../phase/phase';
+import { Team } from '../user-ref/team/team';
+import { TrainingTypeEnum } from '../enums/training-type-enum';
 
 /**
  * Class representing training run
@@ -12,7 +14,9 @@ export class TrainingRun {
     sandboxInstanceAllocationId: number;
     trainingInstanceId: number;
     trainingDefinitionId: number;
+    type: TrainingTypeEnum;
     player: Trainee;
+    team: Team;
     startTime: Date;
     endTime: Date;
     currentLevel: Level | number | Phase;
