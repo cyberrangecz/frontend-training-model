@@ -1,8 +1,8 @@
 import { Team } from './team';
 
+export class ScoreboardEntry {
 
-export class ScoreboardTeam extends Team{
-
+    team: Team;
     score: number;
     position: number;
 

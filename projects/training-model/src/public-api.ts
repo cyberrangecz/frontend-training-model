@@ -80,8 +80,8 @@ export * from './lib/user-ref/beta-tester';
 
 // TEAM
 export * from './lib/user-ref/team/team';
-export * from './lib/user-ref/team/team-run-info';
 export * from './lib/user-ref/team/team-queue';
+export * from './lib/user-ref/team/team-message';
 
 // VISUALIZATION
 export * from './lib/visualization/visualization-info';
