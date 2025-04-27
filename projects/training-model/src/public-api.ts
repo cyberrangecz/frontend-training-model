@@ -82,6 +82,8 @@ export * from './lib/user-ref/beta-tester';
 export * from './lib/user-ref/team/team';
 export * from './lib/user-ref/team/team-queue';
 export * from './lib/user-ref/team/team-message';
+export * from './lib/user-ref/team/scoreboard-entry';
+export * from './lib/user-ref/team/limited-scoreboard';
 
 // VISUALIZATION
 export * from './lib/visualization/visualization-info';

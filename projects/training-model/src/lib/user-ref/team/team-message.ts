@@ -1,7 +1,8 @@
 import { TrainingUser } from '../training-user';
 
-export class Message {
+export class TeamMessage {
 
+    id: number;
     userId: TrainingUser['id'];
     time: Date;
     message: string;
