@@ -1,3 +1,5 @@
+> The code from this repository has been integrated to the [frontend-platform monorepo](https://github.com/cyberrangecz/frontend-platform), where development and maintenance continue.
+
 # CyberRangeᶜᶻ Platform Training Model
 
 This library contains frontend model of [Training service](https://github.com/cyberrangecz/backend-training).
